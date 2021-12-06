@@ -25,15 +25,18 @@ namespace MCD_OOPInterfaceOrnek3
             Eposta = Console.ReadLine();
             Console.Write("Sifre : ");
             Sifre =  Console.ReadLine();
+            
+
             Random rnd = new Random();
-            int bekleme = rnd.Next(3000, 5000);
+            int bekleme = rnd.Next(3, 5); 
+
             Console.WriteLine(bekleme );
             for (int i = 0; i < bekleme ; i++)
             {
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine(i+"...");
-                Thread.Sleep(bekleme);
+                Thread.Sleep(bekleme*1000);
             }
             
             Console.WriteLine("Ödeme İşlemi Gerçekleşti.");

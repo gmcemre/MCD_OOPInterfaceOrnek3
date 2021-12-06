@@ -59,7 +59,7 @@ namespace MCD_OOPInterfaceOrnek3
         {
             Console.Write("Kart Sahibinin Adı: ");
             KartSahibiAd = Console.ReadLine();
-            Console.Write("Kart Sahibinin Adı: ");
+            Console.Write("Kart Sahibinin Soyadı: ");
             KartSahibiSoyad= Console.ReadLine();
             Console.Write("16 haneli kart numarasını giriniz: ");
             KartNumarasi  = Console.ReadLine();
